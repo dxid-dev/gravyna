@@ -141,8 +141,8 @@ sr.reveal(`.s9__img2`,{origin: 'left'})
 sr.reveal(`.s9__desc3`,{origin: 'right'})
 
 /*=============== ANIM S10 ===============*/
-sr.reveal(`.s10__img1`,{delay: 1000, origin: 'right'})
-sr.reveal(`.s10__img2`,{delay: 1000, origin: 'left'})
+sr.reveal(`.s10__img1`,{delay: 1200, origin: 'right'})
+sr.reveal(`.s10__img2`,{delay: 1200, origin: 'left'})
 
 /*=============== ANIM S11 ===============*/
 sr.reveal(`.s11__desc`,{delay: 1000, origin: 'left'})

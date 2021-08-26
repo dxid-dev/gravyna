@@ -348,6 +348,7 @@ img {
 
 .footer__copy {
   text-align: center;
+  font-size: var(--smaller-font-size);
 }
 
 .footer__copy-link {
@@ -416,27 +417,27 @@ img {
 .s1__img1 {
   width: 390px;
   position: absolute;
-  top: 9rem;
+  top: 11rem;
   left: 1rem;
 }
 
 .s1__img2 {
   width: 200px;
   position: absolute;
-  top: 22rem;
+  top: 24rem;
   left: 12rem;
 }
 
 .s1__img3 {
   width: 200px;
   position: absolute;
-  top: 22rem;
+  top: 24rem;
   left: 12rem;
 }
 
 .s1__desc1 {
   padding-right: 5rem;
-  padding-top: 9rem;
+  padding-top: 11rem;
   margin-bottom: 2rem;
   line-height: var(--text-line-height);
   text-align: justify;
@@ -682,21 +683,21 @@ img {
 .s10__desc {
   padding-left: 3rem;
   padding-right: 5rem;
-  margin-bottom: 18rem;
+  margin-bottom: 22rem;
   line-height: var(--text-line-height);
   text-align: justify;
   text-justify: auto;
 }
 
 .s10__img1 {
-  top: 11rem;
+  top: 13rem;
   width: 270px;
   position: absolute;
   left: 11rem;
 }
 
 .s10__img2 {
-  top: 11rem;
+  top: 13rem;
   width: 270px;
   position: absolute;
   right: 13rem;
@@ -712,7 +713,7 @@ img {
   padding-left: 3rem;
   padding-top: 1.5rem;
   padding-right: 7rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   line-height: var(--text-line-height);
   text-align: justify;
   text-justify: auto;
