@@ -627,7 +627,7 @@ img {
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 2rem;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   line-height: var(--text-line-height);
   text-align: justify;
   text-justify: auto;
@@ -643,7 +643,8 @@ img {
 .s9__desc3 {
   padding-right: 9rem;
   padding-left: 34rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
+  margin-bottom: 5rem;
   line-height: var(--text-line-height);
   text-align: right;
 }
