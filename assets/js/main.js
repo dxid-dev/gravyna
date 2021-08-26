@@ -73,13 +73,25 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-/*===== MOUSEMOVE HOME IMG =====*/
+/*===== MOVE ROTATE =====*/
 document.addEventListener('mousemove', move);
 function move(e){
     this.querySelectorAll('.move').forEach(layer =>{
         const speed = layer.getAttribute('data-speed')
         const x = (window.innerWidth - e.pageX*speed)/250
         layer.style.transform = `rotate(${x}deg)`
+    })
+}
+
+/*===== MOVE VER HOR =====*/
+document.addEventListener('mousemove', move2);
+function move2(e){
+    this.querySelectorAll('.move2').forEach(layer =>{
+        const speed = layer.getAttribute('data-speed')
+        const x = (window.innerWidth - e.pageX*speed)/120
+        const y = (window.innerHeight - e.pageY*speed)/350
+
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
 }
 
